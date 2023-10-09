@@ -23,7 +23,7 @@ The purpose of this code is to explore fairness and bias issues in a recidivism 
 Examine the results and fairness metrics in the console output.
 
 
-Code Explanation
+## Code Explanation
 The code is organized into several modules:
 
 Train_Test_Loops.py: This script contains the main training and testing loops for the logistic regression and adversarial models.
@@ -40,16 +40,16 @@ Main_Adver_Network.py: Defines the adversarial fairness model.
 
 Train_Advs_Main.py: Contains functions for training the adversarial and main networks.
 
-Data Source
+## Data Source
 The dataset used in this analysis is available at the following URL:
 Dataset on GitHub
 
-Model Training
+## Model Training
 The logistic regression model is trained to predict recidivism based on features such as age, gender, and charge descriptions.
 
 An adversarial fairness model is introduced to mitigate bias in predictions, achieving fairness across different races.
 
-Results and Fairness Metrics
+## Results and Fairness Metrics
 The code provides detailed metrics for fairness, including False Positive Rate (FPR) parity, for different racial groups. Below are the metrics for the tow groups.
 
 African-American Group
@@ -70,11 +70,11 @@ Negative Predictive Value (NPV): [Value]%
 False Positive Parity: [Value]%
 These metrics demonstrate the fairness and bias mitigation achieved by the adversarial fairness model.
 
-Conclusion
+## Conclusion
 This code showcases an analysis of fairness and bias in a recidivism prediction model, providing insights into model performance and fairness across different racial groups.
 
-Credits
+## Credits
 This code was created by Rupin Khadwal.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
